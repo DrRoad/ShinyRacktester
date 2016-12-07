@@ -1,4 +1,4 @@
-#universal <- c('TLT','IAU','DBC','VIS','VFH','VNQ','SH','VPU')
+
 universal <- read.csv('Universal.csv', header = F,stringsAsFactors = F)[[1]]
 strategyMethods <- c('Momentum','ZScore','Counter-ZScore')
 CSI_HEADER <- c('Open','High','Low','Close', 'Volume','OpenInt','Expiration','Unadjusted')
