@@ -63,7 +63,7 @@ EW.Portfolio <- function(merged.ret, index = F)
 
 ZScore <- function(myxts, n = 100)
 {
-  colnames(myxts) <- "Z.Score"
+  colnames(myxts) <- "Z-Score"
   last_scale <- function(df)
   {
     return(last(scale(df)))
